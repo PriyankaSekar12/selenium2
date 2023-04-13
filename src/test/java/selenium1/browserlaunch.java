@@ -9,6 +9,8 @@ public class browserlaunch {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\N.R.GUNASEELAN\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.get("//https.www.facebook.com/");
+		driver.close();
 	}
 
 }
